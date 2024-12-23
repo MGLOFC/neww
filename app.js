@@ -25,6 +25,7 @@ exibirMensagemInicial();
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
+    console.log('é isso ai')
     
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Acertou!');
